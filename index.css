@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: quicksand;
+}
+header {
+    width: 100% auto;
+    height: auto;
+    background-color: #FF7D29;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: white;
+}
+.identity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+.identity-logo-holder {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.identity-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.header-gap {
+    flex: 1;
+}
+.navigation {
+    justify-content: center;
+    flex: 2;
+}
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.home-link  {
+    margin-left: 30px;
+}
+.contact-link {
+    margin-right: 30px;
+}
+.landing-page {
+    position: sticky;
+    top: 1vh;
+    z-index: -1;
+    background-image: url(images/pexels-guiirossi-1819669.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100% auto;
+    height: 92vh;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+.logo-holder {
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    display: inline-block;
+}
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.safari-name {
+    color: #FF7D29;
+    margin: 0;
+    font-size: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cafe-name {
+    color: #FF7D29;
+    margin-top: -18px;
+    font-size: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lp-slogan {
+    color: #FEFFD2;
+    font-size: 15px;
+}
+strong {
+    color: rgb(255, 166, 102);
+}
+.opening-hours {
+    color: #FEFFD2;
+}
+.menu-page {
+    width: 100% auto;
+    height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+    align-content: center;
+}
+.menu-page h1 {
+    text-align: center;
+    color: #FF7D29;
+}
+.menu-page p {
+    text-align: center;
+}
+.about-page {
+    width: 100% auto;
+    height: auto;
+    margin: 0;
+    background-color: #FF7D29;
+    display: flex;
+    padding: 10px;
+}
+.map-holder {
+    width: 40vw;
+    height: 70vh;
+}
+.map {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.about-content {
+    flex: 1;
+    padding: 10px;
+    align-content: center;
+    vertical-align: middle;
+}
+.about-heading {
+    font-size: 30px;
+    text-align: center;
+    color: #FEFFD2;
+}
+.about-details {
+    color: whitesmoke;
+}
+.contact-page {
+    display: grid;
+    width: 100% auto;
+    height: 80vh;
+    margin: 0;
+    background-color: whitesmoke;
+    padding: 80px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.contact-heading {
+    color: #FF7D29;
+}
+.contact-details {
+    margin-bottom: -90px;
+}
+.address-sect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 700px;
+}
+.address-sect-img {
+    width: 50px;
+}
+.address-sect-details {
+    font-size: 15px;
+}
+.contact-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 350px;
+}
+.c-s-img {
+    width: 50px;
+    height: 50px;
+}
+footer {
+    display: grid;
+    justify-content: center;
+    width: 100% auto;
+    height: auto;
+    background-color: #FF7D29;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.footer-nav {
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.footer-nav-link {
+    flex: 1;
+}
+.creator {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.copyright {
+    margin-top: 0;
+}
+h1, h2 {
+    margin: 0;
+}
+h5 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+hr {
+    border-color: #FFBF78;
+    border-style: solid;
+}
