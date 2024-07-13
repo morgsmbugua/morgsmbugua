@@ -39,9 +39,19 @@ header {
 .header-gap {
     flex: 1;
 }
+@media (max-width: 800px) {
+    .header-gap {
+        flex: 0;
+    }
+}
 .navigation {
     justify-content: center;
     flex: 2;
+}
+@media (max-width: 800px) {
+    .navigation {
+        flex: 2;
+    }
 }
 nav {
     text-align: center;
@@ -52,8 +62,18 @@ nav {
 .home-link  {
     margin-left: 30px;
 }
+@media (max-width: 800px) {
+    .home-link {
+        margin-left: 10px;
+    }
+}
 .contact-link {
     margin-right: 30px;
+}
+@media (max-width: 800px) {
+    .contact-link {
+        margin-right: 10px;
+    }
 }
 .landing-page {
     position: sticky;
@@ -105,7 +125,7 @@ strong {
 }
 .menu-page {
     width: 100% auto;
-    height: 100vh;
+    height: auto;
     margin: 0;
     background-color: whitesmoke;
     align-content: center;
@@ -118,16 +138,32 @@ strong {
     text-align: center;
 }
 .about-page {
+    display: flex;
     width: 100% auto;
     height: auto;
     margin: 0;
     background-color: #FF7D29;
     display: flex;
     padding: 10px;
+    justify-content: center;
+}
+@media (max-width: 800px) {
+    .about-page {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
 }
 .map-holder {
     width: 40vw;
     height: 70vh;
+}
+@media (max-width: 800px) {
+    .map-holder {
+        width: 90vw;
+        height: 50vh;
+    }
 }
 .map {
     width: 100%;
@@ -164,14 +200,28 @@ strong {
     color: #FF7D29;
 }
 .contact-details {
-    margin-bottom: -90px;
+    margin: 0;
 }
 .address-sect {
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    width: 700px;
+    width: 50vw;
+    height: 15vh;
+}
+@media (max-width: 800px) {
+    .address-sect {
+        width: 80vw;
+    }
+}
+.phone, .email, .address {
+    height: 100px;
+}
+@media (max-width: 800px) {
+    .phone, .email, .address {
+        width: 60px;
+    }
 }
 .address-sect-img {
     width: 50px;
@@ -179,12 +229,23 @@ strong {
 .address-sect-details {
     font-size: 15px;
 }
+@media (max-width: 800px) {
+    .address-sect-details {
+        font-size: 11px;
+    }
+}
 .contact-social-media {
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    width: 350px;
+    width: 30vw;
+    height: 7vh;
+}
+@media (max-width: 800px) {
+    .contact-social-media {
+        width: 50vw;
+    }
 }
 .c-s-img {
     width: 50px;
