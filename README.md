@@ -1,6 +1,6 @@
-## MORGAN MBUGUA
+## Welcome, I am
 
-# 💫 About Me:
+# MORGAN MBUGUA:
 🔭 I'm a Freelancer & Full-Stack Developer open to work<br>
 🌱 I'm currently learning Cybersecurity, Python Automation and AI<br>
 👯 I'm open to collaborating on Web, Mobile & Data Science projects<br>
