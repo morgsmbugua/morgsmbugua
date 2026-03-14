@@ -1,7 +1,7 @@
 ## Welcome, I am
 
 # MORGAN MBUGUA:
-🔭 I'm a Freelancer & Full-Stack Developer open to work<br>
+🔭 I'm a Freelancer & Full-Stack Software Engineer open to work<br>
 🌱 I'm currently learning Cybersecurity, Python Automation and AI<br>
 👯 I'm open to collaborating on Web, Mobile & Data Science projects<br>
 📫 Reach me at morgsmbugua@gmail.com
